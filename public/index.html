@@ -4,16 +4,23 @@
     <title>Home page</title>
     <meta charset="UTF-8">
 
-    <!-- JS code loaded and executed 
-            within the page -->
+    <!-- Load the Handlebars library. The Handlebars object is 
+    now available in the rest of the scripts -->
     <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
 
+    <!--
+        Load the JS code for the page. The code is located inside the public folder.
+        However, the Node.js app renames this folder to static
+    -->
     <script src="static/js/main.js" type="text/javascript"></script>
 
 </head>
 
 <body>
-    <h1>Hello world page</h1>
+    <h1>Initial page of the application</h1>
+
+    <p>The page should be loaded from your Node server and the URL http://localhost:8080/ 
+     . Create an appropriate request handler in the index.js file.</p>
 
 
 </body>
