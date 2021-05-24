@@ -1,6 +1,18 @@
 # inf165-webdev-project
 Βασική δομή ενός project για τις ανάγκες της εργασίας 2 του μαθήματος INF165.
 
+```bash
+.
+├── index.js
+├── models
+└── public
+    ├── index.html
+    ├── css
+    |   └── style.css
+    └── js
+        └── main.js
+```
+
 Οι απαραίτητες εξαρτήσεις υπάρχουν ήδη στο package.json. 
 Μπορείτε να τις εγκαταστήσετε με χρήση της εντολής
 ```
@@ -19,3 +31,28 @@ nodemon index.js
 ```
 
 Κάθε φορά που αλλάζετε τον κώδικα του server, το nodemon επανεκκινεί αυτόματα τον server.
+
+## Χρήση του express-handlebars
+
+Εγκατάσταση του `express-handlebars`
+
+```
+npm install express-handlebars --save
+```
+
+Προτείνεται η εξής οργάνωση των αρχείων υποδειγμάτων (templates)
+
+```bash
+.
+├── index.js
+└── views
+    ├── home.handlebars
+    ├── list-contacts.handlebars
+    ├── view-contact.handlebars
+    ...
+    └── layouts
+        └── main.handlebars
+
+        
+```
+
