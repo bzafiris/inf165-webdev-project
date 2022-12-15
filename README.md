@@ -32,27 +32,5 @@ nodemon index.js
 
 Κάθε φορά που αλλάζετε τον κώδικα του server, το nodemon επανεκκινεί αυτόματα τον server.
 
-## Χρήση του express-handlebars
 
-Εγκατάσταση του `express-handlebars`
-
-```
-npm install express-handlebars --save
-```
-
-Προτείνεται η εξής οργάνωση των αρχείων υποδειγμάτων (templates)
-
-```bash
-.
-├── index.js
-└── views
-    ├── home.handlebars
-    ├── list-contacts.handlebars
-    ├── view-contact.handlebars
-    ...
-    └── layouts
-        └── main.handlebars
-
-        
-```
 
