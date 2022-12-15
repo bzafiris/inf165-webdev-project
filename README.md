@@ -32,5 +32,9 @@ nodemon index.js
 
 Κάθε φορά που αλλάζετε τον κώδικα του server, το nodemon επανεκκινεί αυτόματα τον server.
 
+## Χρήσιμες βιβλιοθήκες
 
-
+- [Handlebars](https://handlebarsjs.com/guide/): γλώσσα για τη σύνταξη υποδειγμάτων (templates) για δυναμική παραγωγή HTML περιεχομένου,
+- [expressjs](https://expressjs.com/en/guide/routing.html): γρήγορη υλοποίηση υπηρεσιών ιστού,
+- [uuid](https://www.npmjs.com/package/uuid): παραγωγή μοναδικών αναγνωριστικών,
+- [nodemon](https://www.npmjs.com/package/nodemon): εργαλείο για αυτόματη επανεκκίνηση μιας Node.js εφαρμογής, σε περίπτωση αλλαγών στα αρχεία της εφαρμογής.
