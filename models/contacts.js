@@ -1,1 +1,3 @@
-// DAO module for an entity class, e.g. telephone contact 
+/* JS files that defines modules for basic application entities,
+e.g. carts, users etc
+*/
